@@ -48,7 +48,7 @@ All paths can be configured directly in the Python script.
 
 Clone the repository:
 
-git clone https://github.com/yourusername/honda-analysis.git
+git clone https://github.com/Cardoso-leo/honda-analysis.git
 cd honda-analysis
 
 
