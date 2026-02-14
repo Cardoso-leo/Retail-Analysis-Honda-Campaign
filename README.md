@@ -44,7 +44,7 @@ Output Files	PASTA_SAIDA
 
 All paths can be configured directly in the Python script.
 
-🚀 How to Use
+How to Use
 
 Clone the repository:
 
@@ -66,7 +66,7 @@ python analise_honda.py
 
 Output files will be saved in the output folder with the prefix ANALISE_.
 
-📊 Output
+Output
 
 Each generated Excel file contains three sheets:
 
