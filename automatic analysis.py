@@ -42,10 +42,10 @@ def normalize_columns(df):
 # =======================
 # CAMINHOS DAS PASTAS - HONDA
 # =======================
-PASTA_CHAMADAS = r"\\192.168.200.81\C6Bank-Gestao\Planejamento C6\07. Sara\0. Analitico de Chamadas Control\2026\02"
-PASTA_OCORRENCIAS = r"\\192.168.200.81\C6Bank-Gestao\Planejamento C6\0. Reports\4. Enriquecimento\2026\01. Janeiro\Honda\2. Enriquecido\Análise de Enriquecimento\De X Para"
-PASTA_TELEFONES = r"\\192.168.200.81\C6Bank-Gestao\Planejamento C6\0. Reports\4. Enriquecimento\2026\01. Janeiro\Honda\2. Enriquecido"
-PASTA_SAIDA = r"\\192.168.200.81\C6Bank-Gestao\Planejamento C6\0. Reports\4. Enriquecimento\2026\01. Janeiro\Honda\2. Enriquecido\Análise de Enriquecimento"
+PASTA_CHAMADAS = r"PASTA COM ARQUIVOS PARA CRUZAMENTO"
+PASTA_OCORRENCIAS = r"De X Para"
+PASTA_TELEFONES = r"PASTA COM ARQUIVOS ORIGINAIS"
+PASTA_SAIDA = r"PASTA DESTINO"
 
 # =======================
 # ARQUIVOS FIXOS
@@ -221,3 +221,4 @@ for idx, ARQ_TELEFONES in enumerate(arquivos_telefones, start=1):
 fim_total = datetime.now()
 print(f"🏁 Execução finalizada: {fim_total.strftime('%Y-%m-%d %H:%M:%S')}")
 print(f"⏱ Duração total: {(fim_total - inicio_total).total_seconds():.2f}s")
+
